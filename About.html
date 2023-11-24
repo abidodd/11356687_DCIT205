@@ -1,14 +1,18 @@
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us - Your Website</title>
     <style>
+        
         body {
             margin: 0;
             padding: 0;
             font-family: Arial, sans-serif;
+            overflow: auto;
         }
 
         header {
@@ -21,39 +25,31 @@
         main {
             position: relative;
             width: 100%;
-            height: 100vh;
+            height: 100% ;
             overflow: hidden;
         }
 
         video {
             width: 100%;
-            height: 100%;
+            height: 120vh;
             object-fit: cover;
-            position: absolute;
+            position: fixed;
             top: 0;
             left: 0;
             z-index: -1;
         }
 
         .overlay {
-            position: absolute;
+            position: fixed;
             top: 0;
             left: 0;
             width: 100%;
-            height: 100%;
-            background-color: rgba(0, 0, 0, 0.5); /* Adjust the transparency by changing the last value (0.5) */
+            height: auto;
+            background-color: rgba(0, 0, 0, 0.5); 
             z-index: 0;
         }
 
-        .content {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            text-align: center;
-            color: #fff;
-            z-index: 1;
-        }
+       
 
         h1 {
             font-size: 3em;
@@ -66,13 +62,17 @@
         section {
             background-color: rgba(255, 0, 0, 0); 
             padding: 20px;
+            color: white;
         }
 
         h2 {
             color: #fff; 
+        }
+        
     </style>
 </head>
 <body>
+    
 
     <header>
         <h1>About Us</h1>
@@ -89,12 +89,39 @@
 
         <section> 
             <h2> Our Mission</h2>
-            <p>Empowering individuals through education, innovation, and collaboration in the field of computer science. </p>
+            <p>Empowering individuals through education, innovation, and collaboration in the field of computer science. 
+                Providing accessible and high-quality educational resources to individuals at all levels of expertise.
+                Inspiring and supporting innovative ideas, projects, and solutions that contribute to the evolution of computer science.
+                Join us on this exciting journey as we explore the limitless possibilities of computer science and work together to shape the future of technology.
+            </p>
+        </section>
+
+        <section>
+            <h2> Our Values</h2>
+            <p> Embracing the spirit of innovation, we strive to be at the forefront of technological advancements. We believe in exploring new ideas, methodologies, and technologies to drive progress in the field of computer science.
+                Committed to educational excellence, we provide high-quality resources and content to empower learners at every level. We believe in fostering a learning environment that encourages curiosity, critical thinking, and continuous growth.
+                Integrity and ethical practice are fundamental to our values. We promote responsible and ethical use of technology, emphasizing the importance of ethical considerations in research, development, and implementation of computer science solutions.
+            </p>
+        </section>
+
+        <section > 
+            <h2>Organization</h2> 
+            <P> 
+                The University of Ghana is one of the Africa's most preeminent public universities. 
+                Our impact on individuals, our region and the world is profound. 
+                whether we are launching young people into a boundless future or confronting the grand challenges of our time through dauntless research.
+                UG educates more than 38,000students annually, with approximately 2.64% being computer science students.
+                 
+                +We turn ideas into impact and transform the world around us. For more about our impact, visit our news site, UG News.
+            </P>
         </section>
         
             
 
     </main>
+    
+
+    
 
 </body>
 </html>
