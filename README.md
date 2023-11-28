@@ -5,7 +5,7 @@ Name:ABIGAIL DODD
 
 ## INTRODUCTION
 
-   Greetings from the University of Ghana Department of Computer Science's official repository. This project is an extensive web solution I created with HTML, CSS, and JavaScript to improve the department's online visibility. This website, which has ten pages, is meant to be an interactive and interesting resource for visitors, teachers, and students.
+   Greetings from the University of Ghana Department of Computer Science's official repository. This project is an extensive web solution I created with HTML, CSS, and JavaScript`` to improve the department's online visibility. This website, which has ten pages, is meant to be an interactive and interesting resource for visitors, teachers, and students.
 
 ## PURPOSE
 
@@ -45,6 +45,12 @@ Name:ABIGAIL DODD
             * git push origin main
               #### 7 Hosting
 
+### Lesson learned
+
+Integration of Technologies:
+
+The project demonstrates the integration of multiple technologies, including HTML, CSS, and JavaScript. Understanding how these technologies work together is crucial for building modern and interactive web applications.
+
 ### Screenshots
 
 ![homepage](Imgs/homepage.png)
@@ -68,4 +74,4 @@ Name:ABIGAIL DODD
 ![Resource page](<Imgs/resource page 3.png>)
 ![Research Group](<Imgs/Research Groups page.png>)
 ![Research Group](<Imgs/Research Group 2.png>)
-
+![Research Group](<Imgs/Research Group 3.png>)
